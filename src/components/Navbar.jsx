@@ -7,6 +7,7 @@ import { useUI } from '../context/UIContext'
 const links = [
   { href: '#tutorials', label: 'Tutorials' },
   { href: '#subscription', label: 'Subscribe' },
+  { href: '#classes', label: 'Classes' },
   { href: '#services', label: 'Services' },
   { href: '#suggestions', label: 'Suggestions' },
   { href: '#contact', label: 'Contact' },

@@ -18,6 +18,51 @@ export const site = {
     ],
   },
 
+  // In-person / live class offering. Participants get a hands-on session PLUS
+  // access to a selected set of tutorials (chosen by the admin later).
+  classOffering: {
+    eyebrow: 'Hands-on learning',
+    title: 'Join a Sweet Toppers Class',
+    intro:
+      'Want more than watching? In our classes you get to actually make your own cake toppers — guided step by step, in real time, with all the little tricks that are hard to pick up from a screen alone.',
+    // The big differences vs. just watching the videos.
+    benefits: [
+      {
+        icon: '✂️',
+        title: 'Make your own cutout templates',
+        text: 'Learn to design and cut the templates yourself — the foundation of every clean, professional topper.',
+      },
+      {
+        icon: '🙌',
+        title: 'Hands-on, guided practice',
+        text: 'Work along with the instructor and shape your topper with help at every step, not just by watching.',
+      },
+      {
+        icon: '💬',
+        title: 'Live feedback & questions',
+        text: 'Ask anything in the moment and get instant tips to fix mistakes before they set.',
+      },
+      {
+        icon: '🎁',
+        title: 'Take-home materials',
+        text: 'Leave with the templates and supplies you used, ready to recreate the topper at home.',
+      },
+      {
+        icon: '🔓',
+        title: 'Bonus tutorial access',
+        text: 'Class participants unlock a hand-picked selection of online tutorials to keep practising after class.',
+      },
+      {
+        icon: '🤝',
+        title: 'Learn in a small group',
+        text: 'Intimate, friendly sessions so everyone gets attention and plenty of one-on-one time.',
+      },
+    ],
+    // Set to a number (e.g. 89) to show a price, or leave null to say "Enquire".
+    price: null,
+    ctaLabel: 'Enquire about classes',
+  },
+
   contact: {
     email: 'hello@sweettoppers.example',
     phone: '+1 (555) 012-3456',

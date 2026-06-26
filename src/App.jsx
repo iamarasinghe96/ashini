@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Products from './components/Products'
 import Subscription from './components/Subscription'
+import ClassSection from './components/ClassSection'
 import Services from './components/Services'
 import Testimonials from './components/Testimonials'
 import Suggestions from './components/Suggestions'
@@ -21,6 +22,7 @@ export default function App() {
         <Hero />
         <Products />
         <Subscription />
+        <ClassSection />
         <Services />
         <Testimonials />
         <Suggestions />
